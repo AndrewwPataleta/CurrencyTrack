@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_dfm_currency_start"
+    app:startDestination="@id/nav_graph_currency_favorite">
+
+
+    <include-dynamic
+        android:id="@+id/nav_graph_currency_favorite"
+        android:name="andrew.pataleta.features.currency_favorite"
+        app:graphResName="nav_graph_currency_favorite"
+        app:moduleName="currency_favorite">
+    </include-dynamic>
+
+</navigation>

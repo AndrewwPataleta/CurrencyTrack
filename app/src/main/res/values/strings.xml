@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Currency Traking</string>
+    <string name="favorite">Избранное</string>
+    <string name="list">Список</string>
+</resources>
